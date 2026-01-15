@@ -18,7 +18,7 @@ def about():
     return {"message": "A fully funcational Patient Management System API built with FastAPI."}
 
 
-
+# Add view endpoint to return patient data
 @app.get("/view")
 def view():
     data = load_data()
